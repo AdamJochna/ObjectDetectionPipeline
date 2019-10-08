@@ -1,0 +1,7 @@
+classes= 9418
+labels = /home/adam/Desktop/kaggleOID/darknet/data/9k.labels
+names  = /home/adam/Desktop/kaggleOID/darknet/data/9k.names
+backup = backup/
+map = /home/adam/Desktop/kaggleOID/darknet/data/inet9k.map
+eval = imagenet
+results = results
