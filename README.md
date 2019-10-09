@@ -122,8 +122,7 @@ is that ZFTurbo solution included only leafs in hierarchy tree so without parent
 
 While searching web for ideas is saw post on medium about ensembling technique using
 graphs and cliques it contained only pseudo code so I quickly wrote implementation.
-https://medium.com/synapse-blog/tech-deep-dive-object-detection-ensembles-as-graph-cliq
-ues-a7f7d33b
+https://medium.com/synapse-blog/tech-deep-dive-object-detection-ensembles-as-graph-cliques-a7f7d33b
 I really liked idea that you can use multiple models and if some model produces overlapping
 boxes clique will be constructed with the box with better IOU score, while preserving the
 overlapped box. I was sceptical about this score function for merged boxes
