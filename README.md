@@ -1,6 +1,5 @@
 # Repository contains files used to get 31st place in
 # [Google Open Images 2019 - Object Detection competition](https://www.kaggle.com/c/open-images-2019-object-detection/leaderboard)
-# Google Open Images 2019 - Object Detection solution
 
 First of all I want to thank Google for hosting this competition. It was great fun to compete
 with other kagglers and push myself to the limit. Let me first describe how I worked out my
