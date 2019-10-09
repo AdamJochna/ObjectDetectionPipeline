@@ -64,7 +64,7 @@ remember correctly) so I unfroze it and set limit to 2000 boxes this gave me 0.4
 tried expanding classes which are higher in hierarchy for every box with score>0.02 this gave me
 0.46226mAP boost of 0.01mAP at this moment i started to think of an ensemble.
 
-# 3.YOLO v
+# 3.YOLO v3
 
 The third model I have used was YOLO v3 I downloaded version trained for Open Images
 Dataset, set threshold very low because I noticed that YOLO gives much smaller score for
