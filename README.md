@@ -139,11 +139,16 @@ has similar desired properties as f(p1,p2) just with more variables the most imp
 was that small probabilities are added when making new score and big probabilities get even
 bigger.Below you can see two functions f(x,y)=max(x,y) and f(x,y)=1-(1-x)(1-y) these
 properties can bee seen comparing graphs.
+
+![alt text](https://github.com/AdamJochna/ObjectDetectionPipeline/blob/master/imgs/im1.png) ![alt text](https://github.com/AdamJochna/ObjectDetectionPipeline/blob/master/imgs/im2.png)
+
 This ensemble solution gave me ​0.51379 public LB. Taking the best model for each class
 including clique ensemble as separate model gives 0.51568 public LB script for ensembling is
 public here
 https://github.com/AdamJochna/EnsembleCliques/blob/master/clique_ensemble_github.py
 here a is summary of performance of my models evaluated on validation data:
+
+![alt text](https://github.com/AdamJochna/ObjectDetectionPipeline/blob/master/imgs/im3.png)
 
 Ideas for next competitions:
 -replacing resnet50 with better backbone, at the beginning when I was learning I didn’t know
